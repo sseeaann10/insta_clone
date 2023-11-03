@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { registerUser } from '../redux/actions/userActions';
-
 const Register = () => {
   const [name, setName] = useState("");
   const [avatar, setAvatar] = useState(null);
@@ -31,13 +30,13 @@ const Register = () => {
   };
 
   return (
-    <section className="h-100 h-custom" style={{ backgroundColor: "#8fc4b7" }}>
+    <section className="h-100 h-custom" style={{ backgroundColor: "#000000" }}>
       <div className="container py-5 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col-lg-8 col-xl-6">
             <div className="card rounded-3">
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp"
+                src="https://www.1min30.com/wp-content/uploads/2017/07/Symbole-Instagram.jpg"
                 className="w-100"
                 style={{ borderTopLeftRadius: ".3rem", borderTopRightRadius: ".3rem" }}
                 alt="Sample"
