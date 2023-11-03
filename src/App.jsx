@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import Home from "./pages/Home";
 import LeftSideNav from "./components/LeftSideNav";
-
+import Register from "./pages/Register";
 const App = () => {
   return (
     <div>
@@ -13,6 +13,7 @@ const App = () => {
         <LeftSideNav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
         {/* </Provider> */}
       </Router>
