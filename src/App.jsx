@@ -9,13 +9,13 @@ const App = () => {
   return (
     <div>
       <Router>
-        {/* <Provider store={store}> */}
+        <Provider store={store}>
         <LeftSideNav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
         </Routes>
-        {/* </Provider> */}
+        </Provider>
       </Router>
     </div>
   );
