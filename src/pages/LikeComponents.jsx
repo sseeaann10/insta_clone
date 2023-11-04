@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import './LikeComponent.css';
 class LikeComponent extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +22,7 @@ class LikeComponent extends Component {
 
   render() {
     return (
-      <div>
+      <div className="testLike">
         <p>Compteur : {this.state.count}</p>
         <button
           onClick={() =>

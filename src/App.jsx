@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import LeftSideNav from "./components/LeftSideNav";
 import Register from "./pages/Register";
 import LikeComponents from "./pages/LikeComponents"
-
+import Feed from './pages/Feed';
 
 const App = () => {
   return (
@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/like_test" element={<LikeComponents />} />
+          <Route path="/post" element={<Feed />} />
         </Routes>
         </Provider>
       </Router>

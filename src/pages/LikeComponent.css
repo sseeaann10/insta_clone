@@ -1,0 +1,25 @@
+
+.testLike {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;   
+    align-items: center;       
+    background-color: black;
+    color: #f7f7f7;
+}
+
+
+.like-test-content {
+    background-color: #f7f7f7; 
+    padding: 20px 40px;        
+    border-radius: 8px;        
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    font-size: 1.5em;        
+    text-align: center;
+}
+
+
+.left-navbar nav a {
+    margin-right: 10px;
+}
