@@ -1,8 +1,45 @@
-.left-navbar{
-    background-color: black;
+.left-navbar {
+    background-color: #000;
     display: flex;
-    position: fixed;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 16px;
-}   
+    align-items: center; /* Center items horizontally */
+    padding: 10px 0; /* Reduced padding to fit within 80px width */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 130px; /* Maintain a narrow width */
+}
+
+.sidenav__logo {
+    width: 60px; /* Explicitly set a width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+  .left-navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .left-navbar nav ul li {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .left-navbar nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 12px; /* Smaller font size */
+    letter-spacing: 0.5px; /* Optional: increases spacing between characters */
+    display: block; /* Make links fill the li for better click area */
+    padding: 8px; /* Padding for better touch/click */
+    border-radius: 5px; /* Rounded corners for the hover effect */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .left-navbar nav ul li a:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  
