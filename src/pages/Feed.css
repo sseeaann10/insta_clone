@@ -1,9 +1,9 @@
 .feed {
     display: flex;
     flex-direction: column;
-    align-items: center;     /* Horizontally centered */
-    justify-content: center; /* Vertically centered */
-    min-height: 100vh;       /* Take full viewport height */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     margin-left: 20px;
 }
 
@@ -14,18 +14,17 @@
     margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    overflow: hidden; /* Ensure no content spills out */
-    text-align: center; /* Center inline elements, like images */
+    overflow: hidden;
+    text-align: center;
 }
 
-/* Style for images in posts */
 .post img {
-    max-width: 100%;    /* Images will not exceed the width of the post */
-    height: auto;       /* Keep the aspect ratio */
-    border-radius: 5px; /* Optional: slightly round the corners of images */
-    margin-top: 15px;   /* Add some space between text and image */
-    display: block;     /* Treat the image as a block element */
-    margin-left: auto;  /* Combined with margin-right: auto, centers the image */
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -33,7 +32,7 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 10px;              /* Space between textarea and button */
+    gap: 10px;
     margin-bottom: 20px;
 }
 
@@ -43,11 +42,11 @@
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 16px;
-    resize: vertical;      /* Allow vertical resizing */
+    resize: vertical;
 }
 
 .post-form button {
-    align-self: center;    /* Horizontally centered within form */
+    align-self: center;
     padding: 10px 20px;
     background-color: #007BFF;
     color: #fff;
