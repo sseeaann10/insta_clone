@@ -59,3 +59,24 @@
 .post-form button:hover {
     background-color: #0056b3;
 }
+
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between the like button and the like count */
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Add more button styling if needed */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

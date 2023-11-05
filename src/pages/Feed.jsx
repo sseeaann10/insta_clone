@@ -4,6 +4,10 @@ import { postAtom } from "../utils/globalstate";
 import './Feed.css';
 
 function Post({ text, image, audio }) {
+  const [likes, setLikes] = useState(0);
+  const handleLike = () => {
+    setLikes((prevLikes) => prevLikes + 1);
+  };
   return (
     <div className="post">
       <p>{text}</p>
@@ -11,6 +15,10 @@ function Post({ text, image, audio }) {
       {audio && <audio controls src={audio}>
                   Your browser does not support the audio element.
                 </audio>}
+      <div className="post-actions">
+        <button onClick={handleLike}>Like</button>
+        <span>{likes} {likes === 1 ? 'Like' : 'Likes'}</span>
+      </div>
     </div>
   );
 }
