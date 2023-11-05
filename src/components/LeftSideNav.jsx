@@ -16,6 +16,7 @@ const LeftSideNav = () => {
           <li><Link to={"/register"}>Register</Link>{" "}</li>
           <li><Link to={"/like_test"}>Like Tester</Link>{" "}</li>
           <li><Link to={"/post"}>Post</Link>{" "}</li>
+          <li><Link to={"/api"}>APIPost</Link>{" "}</li>
         </ul>
         </nav>
       </div>
